@@ -13,7 +13,7 @@
   <body>
     <!-- Header design -->
     <header class="header">
-      <a href="" class="logo">Hariom Vashishtha Portfolio <span class="animate" style="--i:1;"></span></a>
+      <a href="" class="logo">Hariom Vashishtha Portfolio<span class="animate" style="--i:1;"></span></a>
       <div class="bx bx-menu" id="menu-icon"></div>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -515,36 +515,35 @@
   </section>
    <!-- contact -section  -->
    <section class="contact" id="contact">
-    <h2 class="heading"><span> Give Feedback </span>!</h2>
+    <h2 class="heading"><span> Give Feedback Or Contact </span>!</h2>
     <form action="#">
         <div class="input-box">
              <div class="input-field">
-                 <input type="text" placeholder="Full Name(optional)" >
+                 <input type="text" placeholder="Full Name(optional)"  id="name">
                  <span class="focus"></span>
              </div>
              <div class="input-field">
-                 <input type="text" placeholder="Email Address(optional)" >
+                 <input type="text" placeholder="Email Address(optional)" id="email" >
                  <span class="focus"></span>
              </div>
          </div>
          <div class="input-box">
              <div class="input-field">
-                 <input type="text" placeholder="Mobile Number(optional)" >
+                 <input type="text" placeholder="Mobile Number(optional)" id="mobileNumber" >
                  <span class="focus"></span>
              </div>
              <div class="input-field">
-                 <input type="text" placeholder="Subject" required >
+                 <input type="text" placeholder="Subject" required  id="subject">
                  <span class="focus"></span>
              </div>
          </div>
          <div class="textarea-field">
-             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+             <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
              <span class="focus"></span>
          </div>
          <div class="btn-box btns">
-             <button type="submit" class="btn">Submit</button>
+             <button type="submit" class="btn" onclick="handleSubmit(event)">Submit</button>
          </div>
-        </form>
     </form>
    </section>
 
