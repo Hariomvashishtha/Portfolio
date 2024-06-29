@@ -416,7 +416,7 @@ span{
 .skills{
     min-height: auto;
     padding-bottom: 7rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .skills .skills-row{
     display: flex;
@@ -858,7 +858,7 @@ span{
 
 .project__item {
     /* background-color: #f9f9f9; */
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -913,3 +913,7 @@ span{
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+.internship{
+    background-color: var(--second-bg-color);
+}
